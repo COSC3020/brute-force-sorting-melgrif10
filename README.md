@@ -20,3 +20,7 @@ randomly without memory instead of systematically trying them?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+The runtime complexity of the algorithm that I implemented is O(n!). This is because the algorithm has to go through all possible permutations in the array. A best case input for this implementation would be an already sorted array. The algorithm would still have to find all the permutations but it won't have to spend time sorting the array. The time complexity would still be O(n!). The worst case input for the algorithm would be an array sorted in reverse order. It would have to go through all possible permutations until it finds the sorted one. The time complexity for this case would be O(n!). 
+
+If the permutations were randomly generated without memory the time complexity would be O(n!). The algorithm might need to try alot if not all possible permutations to find the sorted one. 
